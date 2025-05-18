@@ -1,0 +1,130 @@
+body{
+    font-family: sans-serif;
+    background-color: gainsboro;
+    margin: 0;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#dropdown {
+    position: absolute;
+    left: 30px;
+    top: 25px;
+}
+#dropdownBtn {
+    padding: 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+#dropdownBtn:hover{
+    background-color: gray;
+}
+#dropdown-content {
+    display: none;
+    position: absolute;
+    left: 60px;
+    top: 0px;
+    background-color: #222;
+    color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 8px;
+    overflow: hidden;
+}
+#dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+#dropdown-content a:hover {
+    background-color: #444;
+}
+section {
+    margin-left: 20px;
+}
+.pocetna {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: large;
+    font-style: italic;
+}
+.pocetna p {
+    background-color: gray;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+.o-meni li {
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+.tabela-projekta {
+    border: none;
+    max-width: fit-content;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+}
+.tabela-projekta div {
+    background-color: gray;
+    padding: 5px;
+    border: solid;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+.tabela-projekta div:hover {
+    background-color: rgb(70, 70, 70);
+}
+.tabela-projekta h3 {
+    text-align: center;
+}
+.tabela-projekta div a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+.kontakt form{
+    margin-left: 120px;
+    padding: 20px;
+    background-color: gray;
+    max-width: fit-content;
+    border: solid;
+    border-radius: 10px;
+}
+.kontakt {
+    margin-bottom: 30px;
+}
+#totop {
+    display: none;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    border: none;
+    border-radius: 16px;
+    padding: 10px 15px;
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#totop:hover {
+    background-color: rgb(99, 99, 99);
+}
